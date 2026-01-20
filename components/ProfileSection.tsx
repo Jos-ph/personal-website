@@ -57,8 +57,17 @@ const ProfileSection: React.FC = () => {
           <span>I build apps with</span>
           <div className="flex gap-2">
             {STACK.map((tech) => (
-              <div key={tech.name} className="p-1.5 bg-white border border-stone-200 rounded-lg shadow-sm hover:border-orange-200 transition-colors cursor-default" title={tech.name}>
-                <tech.icon size={16} className="text-orange-500" />
+              <div
+                key={tech.name}
+                className="p-1.5 rounded-lg shadow-sm hover:border-orange-200 transition-colors cursor-default border border-stone-200"
+                style={{ backgroundColor: tech.bgColor }}
+                title={tech.name}
+              >
+                <img
+                  src={tech.logoUrl}
+                  alt={tech.name}
+                  className="w-4 h-4 object-contain"
+                />
               </div>
             ))}
           </div>

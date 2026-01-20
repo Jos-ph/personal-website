@@ -59,7 +59,7 @@ export const SOCIALS: SocialLink[] = [
 ];
 
 export const STACK = [
-  { name: 'React', icon: Code2 },
-  { name: 'TypeScript', icon: Globe },
-  { name: 'Performance', icon: Zap },
+  { name: 'Claude', logoUrl: 'https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/claude.png', bgColor: '#DE7356' },
+  { name: 'Cursor', logoUrl: 'https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/cursor.png', bgColor: '#000000' },
+  { name: 'Ghostty', logoUrl: 'https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/ghostty.svg', bgColor: '#FFFFFF' },
 ];
