@@ -34,7 +34,10 @@ const ProfileSection: React.FC = () => {
             {CAREER.filter(c => !c.current).map((career, index) => (
               <React.Fragment key={career.company}>
                 {career.logoUrl ? (
-                  <div className="inline-flex items-center justify-center p-1.5 bg-white rounded-lg shadow-sm border border-stone-200">
+                  <div
+                    className="inline-flex items-center justify-center p-1.5 rounded-lg shadow-sm border border-stone-200"
+                    style={{ backgroundColor: career.bgColor || '#FFFFFF' }}
+                  >
                     <img
                       src={career.logoUrl}
                       alt={career.company}

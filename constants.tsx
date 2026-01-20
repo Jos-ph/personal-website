@@ -20,8 +20,8 @@ export const PERSONAL_INFO = {
 
 export const CAREER: CareerStep[] = [
   { role: "Director", company: "Overwrite", current: true, logoColor: "bg-blue-500" },
-  { role: "Product Manager", company: "Kraken", current: false, logoColor: "bg-stone-800", logoUrl: "https://cdn.brandfetch.io/idYQrXoH-Q/theme/dark/symbol.svg?c=1bxid64Mup7aczewSAYMX&t=1668515586890" },
-  { role: "Product Manager", company: "Blockchain.com", current: false, logoColor: "bg-stone-800", logoUrl: "https://cdn.brandfetch.io/idEskmZ0_L/theme/dark/symbol.svg?c=1bxid64Mup7aczewSAYMX&t=1668081916288" },
+  { role: "Product Manager", company: "Kraken", current: false, logoColor: "bg-stone-800", logoUrl: "https://cdn.brandfetch.io/idYQrXoH-Q/theme/light/symbol.svg?c=1bxid64Mup7aczewSAYMX&t=1668070444128", bgColor: "#5848D5" },
+  { role: "Product Manager", company: "Blockchain.com", current: false, logoColor: "bg-stone-800", logoUrl: "https://cdn.brandfetch.io/idEskmZ0_L/theme/dark/symbol.svg?c=1bxid64Mup7aczewSAYMX&t=1668081916288", bgColor: "#FFFFFF" },
 ];
 
 export const PROJECTS: Project[] = [
@@ -61,5 +61,5 @@ export const SOCIALS: SocialLink[] = [
 export const STACK = [
   { name: 'Claude', logoUrl: 'https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/claude.png', bgColor: '#DE7356' },
   { name: 'Cursor', logoUrl: 'https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/cursor.png', bgColor: '#000000' },
-  { name: 'Ghostty', logoUrl: 'https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/ghostty.svg', bgColor: '#FFFFFF' },
+  { name: 'Ghostty', logoUrl: 'https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/ghostty.svg', bgColor: '#0f0f11' },
 ];
