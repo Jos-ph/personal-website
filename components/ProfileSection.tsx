@@ -6,10 +6,10 @@ const ProfileSection: React.FC = () => {
   return (
     <section className="mb-16 animate-fade-in-up">
       <div className="flex flex-col md:flex-row items-start md:items-center gap-6 mb-8">
-        <img 
-          src={PERSONAL_INFO.avatar} 
-          alt={PERSONAL_INFO.name} 
-          className="w-20 h-20 rounded-2xl object-cover shadow-sm ring-4 ring-white"
+        <img
+          src={PERSONAL_INFO.avatar}
+          alt={PERSONAL_INFO.name}
+          className="w-20 h-20 rounded-xl object-cover shadow-md border-2 border-stone-100"
         />
         <div>
           <h1 className="text-3xl font-bold text-stone-900 tracking-tight mb-2">
