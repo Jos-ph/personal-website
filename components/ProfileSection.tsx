@@ -34,12 +34,13 @@ const ProfileSection: React.FC = () => {
             {CAREER.filter(c => !c.current).map((career, index) => (
               <React.Fragment key={career.company}>
                 {career.logoUrl ? (
-                  <img
-                    src={career.logoUrl}
-                    alt={career.company}
-                    className="h-4 object-contain inline-block"
-                    style={{ maxWidth: '80px' }}
-                  />
+                  <div className="inline-flex items-center justify-center p-1.5 bg-white rounded-lg shadow-sm border border-stone-200">
+                    <img
+                      src={career.logoUrl}
+                      alt={career.company}
+                      className="h-4 w-4 object-contain"
+                    />
+                  </div>
                 ) : (
                   <span className="font-medium text-stone-500">{career.company}</span>
                 )}
