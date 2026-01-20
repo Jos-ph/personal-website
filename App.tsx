@@ -3,6 +3,7 @@ import ProfileSection from './components/ProfileSection';
 import ProjectsSection from './components/ProjectsSection';
 import SocialLinks from './components/SocialLinks';
 import Newsletter from './components/Newsletter';
+import ContentSection from './components/ContentSection';
 
 const App: React.FC = () => {
   return (
@@ -14,6 +15,8 @@ const App: React.FC = () => {
         <Newsletter />
 
         <ProjectsSection />
+
+        <ContentSection />
 
         {/* <SocialLinks /> */}
 

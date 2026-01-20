@@ -1,15 +1,15 @@
-import { 
-  Twitter, 
-  Linkedin, 
-  Github, 
-  Mail, 
-  Code2, 
-  Smartphone, 
-  Cpu, 
+import {
+  Twitter,
+  Linkedin,
+  Github,
+  Mail,
+  Code2,
+  Smartphone,
+  Cpu,
   Zap,
   Globe
 } from 'lucide-react';
-import { Project, SocialLink, CareerStep } from './types';
+import { Project, SocialLink, CareerStep, ContentItem } from './types';
 
 export const PERSONAL_INFO = {
   name: "Joseph Christopherson",
@@ -62,4 +62,17 @@ export const STACK = [
   { name: 'Claude', logoUrl: 'https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/claude.png', bgColor: '#DE7356' },
   { name: 'Cursor', logoUrl: 'https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/cursor.png', bgColor: '#000000' },
   { name: 'Ghostty', logoUrl: 'https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/ghostty.svg', bgColor: '#0f0f11' },
+];
+
+export const CONTENT: ContentItem[] = [
+  { id: '1', name: 'Walmart: History & Strategy - Acquired', category: 'Business', tags: ['Podcast'], rating: 5, url: '#' },
+  { id: '2', name: 'Claude Code Engineers - AI&I', category: 'Education', tags: ['Podcast'], rating: 5, url: '#' },
+  { id: '3', name: 'Andrew Huberman on IFS', category: 'Education', tags: ['Youtube'], rating: 5, url: '#' },
+  { id: '4', name: 'Tobi Lütke (Shopify) on ACQ2', category: 'Business', tags: ['Podcast'], rating: 5, url: '#' },
+  { id: '5', name: 'Continuous Discovery Habits', category: 'Product', tags: ['Book'], rating: 5, url: '#' },
+  { id: '6', name: 'Reid Hoffman on Blitzscaling', category: 'Business', tags: ['Podcast', 'Book'], rating: 5, url: '#' },
+  { id: '7', name: 'Sam Altman on Lex Fridman', category: 'Education', tags: ['Podcast', 'Youtube'], rating: 5, url: '#' },
+  { id: '8', name: 'The Mom Test', category: 'Product', tags: ['Book'], rating: 5, url: '#' },
+  { id: '9', name: 'How to Start a Startup (YC)', category: 'Business', tags: ['Youtube'], rating: 5, url: '#' },
+  { id: '10', name: 'Inspired by Marty Cagan', category: 'Product', tags: ['Book'], rating: 5, url: '#' },
 ];

@@ -24,3 +24,12 @@ export interface CareerStep {
   logoUrl?: string; // Optional logo URL for the company
   bgColor?: string; // Optional background color for the logo
 }
+
+export interface ContentItem {
+  id: string;
+  name: string;
+  category: string;
+  tags: string[];
+  rating: number;
+  url?: string;
+}
