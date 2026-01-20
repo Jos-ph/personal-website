@@ -49,8 +49,8 @@ const ProfileSection: React.FC = () => {
         <div className="flex flex-wrap items-center gap-3 pt-2">
           <span>Follow along on</span>
           <div className="flex gap-2">
-            {SOCIALS.filter(s => ['Twitter', 'LinkedIn'].includes(s.platform)).map((social) => (
-              <a 
+            {SOCIALS.filter(s => ['GitHub', 'LinkedIn'].includes(s.platform)).map((social) => (
+              <a
                 key={social.platform}
                 href={social.url}
                 className="group flex items-center gap-1.5 px-3 py-1 bg-stone-900 text-white rounded-lg hover:bg-stone-700 transition-colors text-sm font-medium"

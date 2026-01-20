@@ -10,12 +10,12 @@ const App: React.FC = () => {
       <main className="max-w-3xl mx-auto px-6 py-12 md:py-20">
         
         <ProfileSection />
-        
+
         <Newsletter />
-        
+
         <ProjectsSection />
-        
-        <SocialLinks />
+
+        {/* <SocialLinks /> */}
 
         <footer className="mt-20 pt-8 border-t border-stone-200 text-center md:text-left">
           <p className="text-xs text-stone-400 font-medium">

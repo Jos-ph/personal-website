@@ -19,8 +19,8 @@ export const PERSONAL_INFO = {
 };
 
 export const CAREER: CareerStep[] = [
-  { role: "Senior Engineer", company: "TechFlow", current: true, logoColor: "bg-blue-500" },
-  { role: "Engineer", company: "StartUp Inc", current: false, logoColor: "bg-stone-800" },
+  { role: "Director", company: "Overwrite", current: true, logoColor: "bg-blue-500" },
+  { role: "Product Manager", company: "Kraken and Blockchain.com", current: false, logoColor: "bg-stone-800" },
 ];
 
 export const PROJECTS: Project[] = [

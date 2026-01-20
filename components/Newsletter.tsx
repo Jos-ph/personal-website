@@ -14,9 +14,9 @@ const Newsletter: React.FC = () => {
       <div className="flex items-start gap-3 mb-4">
         <span className="text-2xl">🔥</span>
         <div>
-          <h3 className="font-bold text-stone-900 text-lg">Came here from my Resume?</h3>
+          <h3 className="font-bold text-stone-900 text-lg">Connect with me</h3>
           <p className="text-stone-600 text-sm mt-1 max-w-md">
-            Grab my full case study on how I scaled the frontend architecture at TechFlow. Free PDF.
+            Learn more about my full AI development workflow: slash commands, prompt library, and step-by-step guides.
           </p>
         </div>
       </div>
