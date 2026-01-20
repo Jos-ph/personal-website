@@ -20,7 +20,7 @@ export const PERSONAL_INFO = {
 
 export const CAREER: CareerStep[] = [
   { role: "Director", company: "Overwrite", current: true, logoColor: "bg-blue-500" },
-  { role: "Product Manager", company: "Kraken", current: false, logoColor: "bg-stone-800", logoUrl: "https://static1.tokenterminal.com//kraken/logo.png?logo_hash=f84b0034e8811dbbaf9a64314bca4a52ce7def26" },
+  { role: "Product Manager", company: "Kraken", current: false, logoColor: "bg-stone-800", logoUrl: "https://cdn.brandfetch.io/idYQrXoH-Q/theme/dark/symbol.svg?c=1bxid64Mup7aczewSAYMX&t=1668515586890" },
   { role: "Product Manager", company: "Blockchain.com", current: false, logoColor: "bg-stone-800", logoUrl: "https://cdn.brandfetch.io/idEskmZ0_L/theme/dark/symbol.svg?c=1bxid64Mup7aczewSAYMX&t=1668081916288" },
 ];
 
