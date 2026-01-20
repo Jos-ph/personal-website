@@ -19,7 +19,7 @@ const App: React.FC = () => {
 
         <footer className="mt-20 pt-8 border-t border-stone-200 text-center md:text-left">
           <p className="text-xs text-stone-400 font-medium">
-            © {new Date().getFullYear()} Alex Dev. All rights reserved. 
+            © {new Date().getFullYear()} Joseph Christopherson. All rights reserved.
             <span className="mx-2">•</span>
             Designed with <span className="text-red-400">♥</span>
           </p>
