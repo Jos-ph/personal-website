@@ -21,4 +21,5 @@ export interface CareerStep {
   company: string;
   current: boolean;
   logoColor: string; // Tailwind class for generic logo placeholder
+  logoUrl?: string; // Optional logo URL for the company
 }

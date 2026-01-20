@@ -30,7 +30,25 @@ const ProfileSection: React.FC = () => {
             <span className="font-semibold text-stone-900">{CAREER.find(c => c.current)?.company}</span>
           </div>
           <span className="text-stone-400">previously</span>
-          <span className="font-medium text-stone-500">{CAREER.find(c => !c.current)?.company}</span>
+          <div className="inline-flex items-center gap-2">
+            {CAREER.filter(c => !c.current).map((career, index) => (
+              <React.Fragment key={career.company}>
+                {career.logoUrl ? (
+                  <img
+                    src={career.logoUrl}
+                    alt={career.company}
+                    className="h-4 object-contain inline-block"
+                    style={{ maxWidth: '80px' }}
+                  />
+                ) : (
+                  <span className="font-medium text-stone-500">{career.company}</span>
+                )}
+                {index < CAREER.filter(c => !c.current).length - 1 && (
+                  <span className="text-stone-400">and</span>
+                )}
+              </React.Fragment>
+            ))}
+          </div>
         </div>
 
         {/* Stack */}

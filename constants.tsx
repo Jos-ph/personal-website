@@ -20,7 +20,8 @@ export const PERSONAL_INFO = {
 
 export const CAREER: CareerStep[] = [
   { role: "Director", company: "Overwrite", current: true, logoColor: "bg-blue-500" },
-  { role: "Product Manager", company: "Kraken and Blockchain.com", current: false, logoColor: "bg-stone-800" },
+  { role: "Product Manager", company: "Kraken", current: false, logoColor: "bg-stone-800", logoUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/K-logo-wikipedia.svg/2560px-K-logo-wikipedia.svg.png?20210126161451" },
+  { role: "Product Manager", company: "Blockchain.com", current: false, logoColor: "bg-stone-800", logoUrl: "https://altcoinsbox.com/wp-content/uploads/2023/01/full-blockchain.com-logo-750x143.webp" },
 ];
 
 export const PROJECTS: Project[] = [
